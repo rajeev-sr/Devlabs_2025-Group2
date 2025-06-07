@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Login - Page
+    </title>
+    <style>
+      p{
+        margin: 0px 0px;
+        font-family: Arial;
+        margin-left: 15px;
+        color: white;
+        display: inline-block;
+      }
+      input,select,button{
+        margin-left: 15px;
+      }
+      label{
+        color: white;
+      }
+      .div_1{
+        background-color: rgb(0, 169, 153);
+        width: 530px;
+        margin-left: 500px;
+        margin-top: 300px;
+      }
+
+      .user_name,.user_pass{
+        margin-top: 8px;
+        
+        font-size: 14px;
+        color: white;
+      }
+      .user_pass_input{
+        margin-bottom: 10px;
+      }
+
+      .user_name_input,.user_pass_input,.select_role{
+        width: 460px;
+        height: 22px;
+        margin-top: 8px;
+        
+      } 
+      .select_role{
+        height: 27px;
+        display: block;
+        width: 470px;
+      } 
+      .checkbox{
+        display: inline-block;
+        width: 40px;
+      }
+      .terms_cond{
+        margin-left: 0px;
+        margin-top: 8px;
+      }
+      .sign_in{
+        display: block;
+        margin-top: 8px;
+        padding: 6px 17px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        font-size: 15px;
+        background-color: rgba(1, 171, 74, 0.344);
+        border : none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="div_1">
+    <p class="user_name">
+      Username:
+    </p>
+    <input class="user_name_input" type="text"> 
+    <p class="user_pass">
+      Password:
+    </p>
+    <input class="user_pass_input" type="text">
+    <br>
+
+
+    <input type="radio" name="role" >
+    <label >Admin</label>
+    <input type="radio" name="role" >
+    <label >User</label>
+  
+    <select class="select_role" id="role" name="role" required>
+      <option value="student">Student</option>
+      <option value="staff">Staff</option>
+      <option value="other">Other</option>
+    </select> 
+
+
+    <input type="checkbox">
+    <p class="terms_cond">
+      I agree to the <u class="terms_cond_1">terms and conditions</u>
+    </p>
+    <button class="sign_in"> Sign In</button>
+
+    <p class="login_cred">
+      (username is rahulshettyacademy and Password is learning)
+    </p>
+    </div>
+  </body>
+</html>
